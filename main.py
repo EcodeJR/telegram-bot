@@ -29,7 +29,7 @@ def p_command(update, context):
     querystring = {"ids":str(update.message.split(' ')[N-2]).lower(),"vs_currencies":str(update.message.split(' ')[N-3]).lower()}
 
     headers = {
-        "X-RapidAPI-Key": "362994a2b8msh8ef389253ebf0f6p18be23jsnc8fb91709bbd",
+        "X-RapidAPI-Key": "YOUR RAPID API KEY HERE",
         "X-RapidAPI-Host": "coingecko.p.rapidapi.com"
     }
 
