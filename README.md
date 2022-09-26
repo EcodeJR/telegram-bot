@@ -12,8 +12,25 @@ HOW TO USE:
 Create a bot with Botfather on telegram
 insert you bot key in constants.py
 
--And run the main.py script
+Setting up rapid api
+
+-create an account on https://rapidapi.com/
+
+-add your rapidapi key to main.py
+
+OR
+
+-goto https://rapidapi.com/coingecko/api/coingecko
+-after you're logged in and copy your api key from there
+#you'll see it in the code snippet section:
+    headers = {
+        "X-RapidAPI-Key": "You're key would be here",
+        "X-RapidAPI-Host": "coingecko.p.rapidapi.com"
+    }
+
+
+And run the main.py script
 
 -Search for the name of your bot on telegram
 
--And HELP me out oon the isssue
+-And HELP me out on the isssue
